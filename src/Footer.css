@@ -1,0 +1,14 @@
+.footer {
+  border-top: 1px solid lightgreen;
+  padding: 5px;
+  background-color: rgb(246, 255, 242);
+  bottom: 0;
+  text-align: center;
+}
+
+.footer > p {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(32, 178, 81);
+}

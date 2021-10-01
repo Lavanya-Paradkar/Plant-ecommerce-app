@@ -1,0 +1,127 @@
+.searchResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid lightgreen;
+  cursor: pointer;
+}
+
+.searchResult:hover {
+  background-color: rgb(235, 253, 236);
+}
+
+.searchResult > img {
+  height: 200px;
+  width: 260px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchResult__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.searchResult__heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.searchResult__infoTop {
+  width: 40vw;
+  padding-right: 20px;
+}
+
+.searchResult__infoTop > h3 {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.searchResult__infoTop > h5 {
+  font-weight: 500;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.searchResult__infoTop > p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgb(27, 189, 83);
+}
+
+.searchResult__infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchResult__star {
+  color: rgb(236, 181, 62);
+}
+
+.searchResult__stars {
+  display: flex;
+  align-items: center;
+}
+
+.searchResult__price > p {
+  text-align: right;
+}
+
+.searchResult__price {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+}
+
+@media (max-width: 700px) {
+  .searchResult__infoTop {
+    width: 30vw;
+    padding: 2px;
+  }
+  .searchResult__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .searchResult__infoTop > h3 {
+    font-weight: 700;
+    margin-top: 3px;
+    font-size: 19px;
+  }
+
+  .searchResult__infoTop > h5 {
+    font-weight: 500;
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .searchResult__info > h4 {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  .searchResult__heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .searchResult > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .searchResult__price {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+  }
+}

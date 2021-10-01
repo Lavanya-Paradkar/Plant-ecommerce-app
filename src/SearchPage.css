@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(to bottom, rgb(34, 179, 58), rgb(214, 250, 217));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+.searchPage {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchPage__info {
+  padding: 20px;
+}
+
+.login__logo {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.searchPage__optionSearch {
+  display: flex;
+  flex: 1;
+  height: 12px;
+  justify-content: center;
+  max-width: fit-content;
+  padding: 10px;
+  background-color: white;
+  align-items: center;
+  border: 1px solid rgb(3, 94, 3);
+  border-radius: 999px;
+}
+
+.search__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  border: 1px solid lightgreen;
+  box-shadow: lawngreen;
+}
+
+.searchPage__optionSearch > input {
+  border: none;
+  outline-width: 0;
+  color: green;
+  width: 400px;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .search__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 12px;
+    padding: 20px;
+    width: 60%;
+    background-color: white;
+    border: 1px solid lightgreen;
+    box-shadow: lawngreen;
+  }
+  .searchPage__optionSearch {
+    display: flex;
+    flex: 1;
+    height: 12px;
+    justify-content: center;
+    max-width: fit-content;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    border: 1px solid rgb(3, 94, 3);
+    border-radius: 999px;
+  }
+  .searchPage__optionSearch > input {
+    border: none;
+    outline-width: 0;
+    color: green;
+    width: 200px;
+    font-weight: 600;
+  }
+}
